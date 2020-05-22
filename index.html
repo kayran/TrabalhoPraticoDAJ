@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Pedra, Papel ou Tesoura</title>
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+        }
+    </style>
+  </head>
+  <body>
+    <h1>Pedra, Papel ou Tesoura</h1>
+    <p>Selecione pedra, papel ou tesoura e tente vencer o computador!</p>
+	
+    <p class="hints"></p>
+
+    <p><strong>Lembrete:</strong> “Pedra quebra a tesoura, tesoura corta o papel, papel cobre a pedra.” </p>
+    
+    <div class='pontuacao'></div>
+    <div class='mensagem'></div>
+	
+    <button type='button' class='padrao'>Pedra</button>
+    <button type='button' class='padrao'>Papel</button>
+    <button type='button' class='padrao'>Tesoura</button>
+    <script src="script.js"></script>
+  </body>
+</html>
